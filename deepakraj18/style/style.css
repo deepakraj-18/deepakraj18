@@ -37,6 +37,9 @@ h1{
     font-size: 26px;
     font-family: "Poppins", sans-serif;
 }
-#social_links_icon{
+#{
+    color: black;
+}
+#icon:hover{
     color: rgb(00, 00, 255);
 }
