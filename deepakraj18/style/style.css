@@ -1,0 +1,42 @@
+#header {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    z-index: 10054;
+    transition: all 0.5s;
+    padding: 0px;
+    overflow-y: auto;
+    /* align-content: center; */
+    padding-left: 30px;
+    padding-top: 100px;
+    line-height: 60px;
+}
+
+#hero{
+    height: 900px;
+    width: 1400px;
+    background: url(../assets/red.jpg) top right no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+.container{
+    margin-left: 0px;
+    margin-top: 300px;
+    padding-left: 160px;
+}
+h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #4576a6;
+}
+#designation{
+    color: #45505b;
+    margin: 15px 0 0 0;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+}
+#social_links_icon{
+    color: rgb(00, 00, 255);
+}

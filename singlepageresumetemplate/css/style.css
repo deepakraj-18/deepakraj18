@@ -1,0 +1,101 @@
+.container{
+    border: .25px solid green;
+    display: flex;
+    height: auto;
+    width: 1000px;
+    margin: auto auto;
+}
+.left-section{    
+    flex-basis: 25%;
+    margin-left: 25px;
+}
+.personal_info{
+    flex-basis: auto;
+    margin-left: 33px;
+}
+.right-section{
+    flex-basis:75%;
+}
+.container1{
+    display: flex;
+    height: 100px;
+    width: auto;
+    margin: auto auto;
+}
+.cont1_left{    
+    flex-basis:10%;
+    }
+.cont1_right{
+    flex-basis: 90%;
+}
+.heading{
+color: rgb(6, 6, 109);
+font-size: 28px;
+}
+p{
+    color: grey;
+}
+
+img{
+    border-radius: 50%;
+    height: 100%;
+    width: 17%;
+}
+.Name{
+    font-weight: bold;
+    color: rgb(6, 6, 109);
+    font-size: 30px;
+    height: 32%;
+}
+.rat{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.rating_1{
+    border-radius: 50%;
+    background-color: grey;
+    height: 10px;
+    width: 10px;
+}
+.rating_2{
+    border-radius: 50%;
+    background-color: rgb(6, 6, 109);
+    height: 10px;
+    width: 10px;
+}
+.software_rating{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 5px;
+}
+.designation{
+    color: rgb(6, 6, 109);
+    font-weight: bold;
+    margin-left: 12px;
+}
+.experience_1,.experience_2,.experience_3,.school_1,.school_2,.college,.certificate_1,.certificate_2,.certificate_3,.certificate_4,.certificate_5{
+    display: flex;
+    height: auto;
+    width: 713px;
+}
+.experience_left,.education_left,.certificate_left{
+    flex-basis: 25%;
+    height: auto;
+}
+.experience_right,.education_right,.certificate_right{
+    flex-basis: 75%;
+    height: auto;
+}
+h2{
+    color: rgb(6, 6, 109);
+    font-size: 28px;
+}
+h3{
+    font-size: 20px;
+}
+h6{
+    font-size: 14px;
+}
+.interest{
+    margin-left: 103px;
+}
